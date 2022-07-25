@@ -45,11 +45,11 @@ function getFizzBuzz(num) {
  *   10 => 3628800
  */
 function getFactorial(n) {
-  let fac = 1;
+  let factorial = 1;
   for (let i = 1; i <= n; i += 1) {
-    fac *= i;
+    factorial *= i;
   }
-  return fac;
+  return factorial;
 }
 
 /**
